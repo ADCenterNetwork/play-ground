@@ -8,6 +8,12 @@ class Clase1_1:
             while num < n:
                 yield num
                 num += 1
+    class Clase1_3:
+        def firstn(self, n):
+            num = 0
+            while num < n:
+                yield num
+                num += 1
 
 class Clase2_1:
     class Clase2_2:
@@ -51,7 +57,7 @@ next(clase.firstn(5))
 
 #3ª forma:
 
-clase = Clase1_1().Clase1_2()
+clase = Clase1_1().Clase1_3()
 
 generator = clase.firstn(5)
 
