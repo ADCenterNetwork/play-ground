@@ -1,6 +1,7 @@
-import pruebas, pruebas2, prueba_simple
+#import pruebas, pruebas2, prueba_simple
+import folder
 
-pruebas.Clase1_1().Clase1_2().firstn(5)
+folder.Clase1_1().Clase1_2().firstn(5)
 
 def generator():
     yield 'hola'
